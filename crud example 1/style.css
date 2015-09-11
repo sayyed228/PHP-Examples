@@ -1,0 +1,57 @@
+/************************************ Elements based css start here! ************************************/
+
+img {vertical-align: middle}
+
+
+/************************************ Common css start here! ************************************/
+.img-fluid { width:100%; height:auto;} 
+
+
+.text-muted {}
+.text-primary {}
+.text-success {}
+.text-info {}
+.text-warning {}
+.text-danger {}
+
+
+.bg-primary {}
+.bg-success {}
+.bg-info {}
+.bg-warning {}
+.bg-danger {}
+
+
+
+
+
+
+/************************************ Bootstrap override css start here!  ************************************/
+.carousel-control.left , .carousel-control.right { background:none;}
+.carousel-indicators li {width: 18px;height: 18px;margin: 1px 3px;border: 1px solid #fff;border-radius: 10px; background:#fff;}
+.carousel-indicators .active {background-color:#009098;width:18px;height:18px;margin: 0;}
+/************************************ Page or Section specific css start here! ************************************/
+
+
+/************************************ Media Query start here! ************************************/
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+ .HideOnDesktop {display: none !important}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+ .HideOnTablate {display: none !important}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+ .HideOnTablate {display:none !important}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+ .HideOnMobile {display:none !important}
+}
